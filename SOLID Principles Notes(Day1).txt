@@ -1,0 +1,26 @@
+SOLID PRINCIPLES
+
+*It was created by robert C Martin also known as uncle bob
+*This is principle provides clean code or a proper and good pratice for development
+
+*FULL FORM
+	S-Single Responsiblity
+	O-Open/Closed Principle
+	L-Liskov Substitution Principle
+	I-Interface Segregation
+	D-Dependency Inversion
+
+*Single Responsiblity:
+			In this it says that a class should have only one purpose.
+	Ex:
+		if it is used for calculating area of a square then it should only calc the area.
+if it displays or prints the value it has calculated then it violates the law.
+
+*Open/Closed:
+		In this it says "Objects or entities should be open for extension but closed for modification."
+it means that when we try to add a new feature like finding the area of a circle, if we edit the existing then it violates
+this law.
+		This tells that we can only extend the feature without changing the existing code rather expand its features now 
+and in future without touching the existing code and just adding new class seperatly.
+
+ 
