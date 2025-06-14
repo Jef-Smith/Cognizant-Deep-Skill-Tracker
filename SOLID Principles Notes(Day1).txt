@@ -23,4 +23,16 @@ this law.
 		This tells that we can only extend the feature without changing the existing code rather expand its features now 
 and in future without touching the existing code and just adding new class seperatly.
 
+*Liskov Substitution:
+It tells that a child class should follow the rules of the parent class.
+ex:
+	if there is toys class where there are dog,cat and robot. we play a game where the toy should make a sound.
+when we take dog it barks,cat meows and robot does not make noise that means it violates the law.
+In this principle all the class should follow a particular rule which is inherited
+
+*Interface Segregation
+In this a class shouldn’t be forced to use methods it doesn’t need.
+Ex:
+if there a class with the feature where all the toys call play music, walk and fly.If there is a car it can play music 
+but cannot walk or fly. In this case it violates the law
  
