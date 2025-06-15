@@ -35,4 +35,9 @@ In this a class shouldn’t be forced to use methods it doesn’t need.
 Ex:
 if there a class with the feature where all the toys call play music, walk and fly.If there is a car it can play music 
 but cannot walk or fly. In this case it violates the law
+
+*Dependency Inversion
+In this High-level code should not depend on low-level code.Both should depend on an interface or abstract idea.
+that is suppose there is a class for turn on/off a bulb if so when we add a fan then we need to create another class for fan 
+to turn on/off so to avoid that we make on/off as a interface that can be used as anything.
  
